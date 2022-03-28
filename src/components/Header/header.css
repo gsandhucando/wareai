@@ -1,0 +1,188 @@
+.headerMeetingContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FC0A7E;
+    color: #F5F5F5;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    z-index: 9;
+    width: 100%;
+    -webkit-box-shadow: 0px 1px 11px 1px rgba(0,0,0,0.20); 
+    box-shadow: 0px 1px 11px 1px rgba(0,0,0,0.20);
+}
+.headerContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    height: 80px;
+    background: #F5F5F5;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    z-index: 9;
+    /* width: 100%; */
+}
+.logoConatiner{
+    display: flex;
+    justify-content: center;
+}
+.navLinkConatiner{
+    display: flex;
+    justify-content: center;
+}
+.navLinkUl{
+    display: flex;
+    list-style: none;
+}
+.navLinkLi {
+    margin: 0 10px;
+    width: 92px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #222222;
+}
+.navLinkLi:hover{
+    color: #157FFE;
+}
+.btnContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+.loginBtn{
+    margin-right: 10px;
+    /* background: blue; */
+    width: 103px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 2px solid #8A8A8A;
+    cursor: pointer;
+    transition: ease-in-out 300ms;
+}
+.loginBtn:hover{
+    background: #157FFE;
+    color: #F5F5F5;
+    border: 2px solid #157FFE;
+    transition: ease-in-out 300ms;
+}
+.getDemoBtn{
+    margin-right: 10px;
+    background: #157FFE;
+    width: 115px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    color: #F5F5F5;
+    cursor: pointer;
+}
+.meetingBtn{
+    font-size: 14px;
+    margin-left: 15px;
+    background: #157FFE;
+    width: 145px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    color: #F5F5F5;
+    cursor: pointer;
+}
+.mobileNavLinkContainer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.mobileNavcontainer{
+    position: absolute;
+    height: 400px;
+    top: 75px;
+    background: #F5F5F5;
+    width: 100%;
+    display: grid;
+    flex-direction: column;
+    padding: 0 30px;
+}
+.barContainer{
+    height: 65px;
+    width: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.mobileNavLinkUl{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    height: 100%;
+}
+.mobileNavLinkLi {
+    margin: 0 10px;
+    width: 92px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #222222;
+}
+.mobileNavLinkLi:hover{
+    color: #157FFE;
+}
+.mobileBtnContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 16px;
+}
+.mobileLoginBtn{
+    /* margin-right: 10px; */
+    /* background: blue; */
+    /* width: 103px; */
+    width: 70%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 2px solid #8A8A8A;
+    cursor: pointer;
+    transition: ease-in-out 300ms;
+}
+.mobileLoginBtn:hover{
+    background: #157FFE;
+    color: #F5F5F5;
+    border: 2px solid #157FFE;
+    transition: ease-in-out 300ms;
+}
+.mobileGetDemoBtn{
+    /* margin-right: 10px; */
+    background: #157FFE;
+    /* width: 115px; */
+    width: 70%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    color: #F5F5F5;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 900px) {
+    .headerContainer {
+        grid-template-columns: 1fr 1fr;
+        position: relative;
+        -webkit-box-shadow: 0px 1px 11px 1px rgba(0,0,0,0.20); 
+        box-shadow: 0px 1px 11px 1px rgba(0,0,0,0.20);
+    }
+  }

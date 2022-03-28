@@ -1,0 +1,22 @@
+.youtubeContainer{
+    position: relative;
+}
+.videoTextContainer{
+    position: absolute;
+    color: #F5F5F5;
+    top: 25%;
+    left: 10%;
+}
+.videoBtn{
+    font-size: 20px;
+    margin: 20px 10px 0 0;
+    background: #157FFE;
+    width: 150px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    color: #F5F5F5;
+    cursor: pointer;
+}

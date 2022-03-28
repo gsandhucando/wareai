@@ -1,0 +1,33 @@
+.benfitisInfoContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 60px 0;
+    /* height: 500px; */
+    /* max-width: 1200px; */
+}
+.benfitisInfoContainerScooby{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 115px 0;
+    /* height: 500px; */
+    /* max-width: 1200px; */
+}
+.headerInfo{
+    text-align: left;
+    font-size: 38px;
+    color: #333;
+}
+.info{
+    text-align: left;
+    font-size: 20px;
+    color: #333;
+    margin-top: 20px;
+}
+.graphContainer{
+    height: 100%;
+}

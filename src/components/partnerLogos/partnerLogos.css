@@ -1,0 +1,43 @@
+.partnerLogosMainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+}
+.partnerLogosContainer{
+    padding: 55px;
+    height: 400px;
+    /* display: grid; */
+    display: flex;
+    overflow: scroll;
+    /* overflow: hidden; */
+    /* overflow-x: scroll; */
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr 1fr; */
+    /* max-width: 1200px; */
+
+    /* display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+}
+.partnerLogosContainer {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.partnerLogosContainer::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
+.logoContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    /* grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr 1fr; */
+}
