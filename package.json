@@ -1,11 +1,11 @@
 {
   "name": "wareai",
   "version": "0.1.0",
-  "private": true,
   "engines": {
     "node": "16.14.2",
     "npm": "7.20.6"
   },
+  "private": true,
   "dependencies": {
     "@faker-js/faker": "^6.0.0",
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
